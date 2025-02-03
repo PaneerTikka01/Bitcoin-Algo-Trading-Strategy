@@ -53,15 +53,17 @@ To backtest and evaluate the strategy, run the Jupyter Notebook:
 jupyter notebook BTC_strategy.ipynb
 ```
 
+**Note:** The code uses `folder_path = "./"` and `csv_file_name = 'dev.csv'`, which might cause issues if the required CSV file is not present. Users should update the file path and name according to their dataset before running the script.
+
 ## 🎯 Final Remarks
 
 This algorithmic trading strategy has demonstrated **exceptional performance** over the backtest period. Starting with an initial investment of **$1,000**, the strategy grew the portfolio to an impressive **$676,836.69**, achieving a **67,583.67% profit**. 
 
 By leveraging **Ichimoku Cloud signals**, smart risk management, and a well-calibrated trading framework, this strategy has shown a strong ability to capture profitable opportunities while managing downside risks. While past performance is not indicative of future results, this strategy highlights the potential for **significant returns** when deployed effectively.
 
+
 ## ⚠ Disclaimer
 
-This strategy is for **educational purposes only**. 
+This strategy is for **educational purposes only**. Trading involves risk, and past performance does not guarantee future results.
 
 ---
-
